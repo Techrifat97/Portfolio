@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(img/background.jpg);
+    background-size:100% 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+   
+}
+.title{
+    display: flex;
+    gap: 2em;
+    margin-left: 4em;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+
+}
+.brand h1, a{
+    color: rgb(94, 94, 94);
+    letter-spacing: 1px;
+}
+.brand span{
+    color: blueviolet;
+}
+.menu-item a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: rgb(94, 94, 94);
+}
+.navButton{
+    display: flex;
+    margin-left: auto;
+}
+.navButton button{
+    margin-right: 6em;
+    padding: 1em 2em;
+    color: white;
+    background-color: blueviolet;
+    border: 0px;
+    border-radius: 10%;
+    font-weight: 700;
+}
+.body-elements{
+    margin-top: 8em;
+    margin-left: 4em;
+}
+.body-elements h1{
+    font-size: 46px;
+    color: rgb(94, 94, 94);
+}
+.body-elements span{
+    color: blueviolet;
+}
+.body-elements h2,p{
+    color: rgb(94, 94, 94);
+}
+
+.body-p{
+    width: 30%;
+    text-align: justify;
+    font-size: small;
+}
+.body-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.body-btn button{
+    padding:0.8em 2em;
+    border: 0px;
+}
+.body-btn button:first-child{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10%;
+}
+.body-btn button:last-child{
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    font: bold;
+    border-radius: 10%;
+}
